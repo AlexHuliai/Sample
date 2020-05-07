@@ -19,8 +19,11 @@ List<Integer> b = new ArrayList<>();
         b.add(3);
         b.add(4);
         b.add(6);
+        String str = "a simple string";
 
- System.out.println(hIndex(b));
+        str = str.replace("a", "A SIMPLE").substring(2, 8);
+        System.out.println(str);
+    System.out.println(hIndex(b));
 
     }
 
